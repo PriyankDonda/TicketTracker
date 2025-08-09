@@ -1,0 +1,6 @@
+2025-06-28 20:03:54.949 +05:30 [ERR] Failed executing DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2025-06-28 20:03:55.086 +05:30 [INF] Acquiring an exclusive lock for migration application. See https://aka.ms/efcore-docs-migrations-lock for more information if this takes too long.
+2025-06-28 20:03:55.093 +05:30 [INF] Applying migration '20250628142708_Initial Create'.

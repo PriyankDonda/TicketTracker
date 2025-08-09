@@ -1,0 +1,450 @@
+2025-07-01 09:13:50.216 +05:30 [INF] User profile is available. Using '/Users/priyank/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-01 09:13:50.336 +05:30 [INF] Now listening on: http://localhost:5206
+2025-07-01 09:13:50.338 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-01 09:13:50.338 +05:30 [INF] Hosting environment: Development
+2025-07-01 09:13:50.338 +05:30 [INF] Content root path: /Users/priyank/RiderProjects/TicketTracker/TicketTracker
+2025-07-01 09:13:50.960 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/index.html - null null
+2025-07-01 09:13:51.123 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/index.html - 200 null text/html;charset=utf-8 163.5107ms
+2025-07-01 09:13:51.223 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/swagger-ui-bundle.js - null null
+2025-07-01 09:13:51.365 +05:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-07-01 09:13:51.368 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 145.4174ms
+2025-07-01 09:13:51.756 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - null null
+2025-07-01 09:13:51.756 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf - null null
+2025-07-01 09:13:51.761 +05:30 [INF] CORS policy execution failed.
+2025-07-01 09:13:51.761 +05:30 [INF] Request origin http://localhost:5206 does not have permission to access the resource.
+2025-07-01 09:13:51.762 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-07-01 09:13:51.843 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf - 404 0 null 87.1804ms
+2025-07-01 09:13:51.845 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf, Response status code: 404
+2025-07-01 09:13:51.884 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 127.6513ms
+2025-07-01 09:14:02.357 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/Ticket/1 - null null
+2025-07-01 09:14:02.372 +05:30 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2025-07-01 09:14:02.376 +05:30 [INF] AuthenticationScheme: Bearer was challenged.
+2025-07-01 09:14:02.376 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/Ticket/1 - 401 0 null 18.8349ms
+2025-07-01 12:30:51.575 +05:30 [INF] Application is shutting down...
+2025-07-01 15:53:22.992 +05:30 [INF] User profile is available. Using '/Users/priyank/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-01 15:53:23.080 +05:30 [INF] Now listening on: http://localhost:5206
+2025-07-01 15:53:23.081 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-01 15:53:23.082 +05:30 [INF] Hosting environment: Development
+2025-07-01 15:53:23.082 +05:30 [INF] Content root path: /Users/priyank/RiderProjects/TicketTracker/TicketTracker
+2025-07-01 15:53:24.207 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/index.html - null null
+2025-07-01 15:53:24.331 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/index.html - 200 null text/html;charset=utf-8 124.9128ms
+2025-07-01 15:53:25.034 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - null null
+2025-07-01 15:53:25.097 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf - null null
+2025-07-01 15:53:25.105 +05:30 [INF] CORS policy execution failed.
+2025-07-01 15:53:25.105 +05:30 [INF] Request origin http://localhost:5206 does not have permission to access the resource.
+2025-07-01 15:53:25.108 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-07-01 15:53:25.167 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf - 404 0 null 69.7337ms
+2025-07-01 15:53:25.169 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf, Response status code: 404
+2025-07-01 15:53:25.188 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 155.9849ms
+2025-07-01 15:53:53.538 +05:30 [INF] Application is shutting down...
+2025-07-01 15:53:58.041 +05:30 [INF] User profile is available. Using '/Users/priyank/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-01 15:53:58.142 +05:30 [INF] Now listening on: http://localhost:5206
+2025-07-01 15:53:58.143 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-01 15:53:58.143 +05:30 [INF] Hosting environment: Development
+2025-07-01 15:53:58.143 +05:30 [INF] Content root path: /Users/priyank/RiderProjects/TicketTracker/TicketTracker
+2025-07-01 15:53:58.746 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/index.html - null null
+2025-07-01 15:53:58.928 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/index.html - 200 null text/html;charset=utf-8 184.8833ms
+2025-07-01 15:53:59.411 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - null null
+2025-07-01 15:53:59.448 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf - null null
+2025-07-01 15:53:59.460 +05:30 [INF] CORS policy execution failed.
+2025-07-01 15:53:59.460 +05:30 [INF] Request origin http://localhost:5206 does not have permission to access the resource.
+2025-07-01 15:53:59.466 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-07-01 15:53:59.504 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf - 404 0 null 56.1318ms
+2025-07-01 15:53:59.507 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf, Response status code: 404
+2025-07-01 15:53:59.578 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 173.5299ms
+2025-07-01 15:54:32.987 +05:30 [INF] Request starting HTTP/1.1 POST http://localhost:5206/api/Auth/login - application/json 63
+2025-07-01 15:54:32.997 +05:30 [INF] CORS policy execution failed.
+2025-07-01 15:54:32.997 +05:30 [INF] Request origin http://localhost:5206 does not have permission to access the resource.
+2025-07-01 15:54:33.000 +05:30 [INF] Executing endpoint 'TicketTracker.Controllers.AuthController.Login (TicketTracker)'
+2025-07-01 15:54:33.044 +05:30 [INF] Route matched with {action = "Login", controller = "Auth"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Login(TicketTracker.DTOs.LoginDto) on controller TicketTracker.Controllers.AuthController (TicketTracker).
+2025-07-01 15:54:33.351 +05:30 [INF] Executing action method TicketTracker.Controllers.AuthController.Login (TicketTracker) - Validation state: "Valid"
+2025-07-01 15:54:34.286 +05:30 [INF] Executed DbCommand (53ms) [Parameters=[@__dto_Email_0='?'], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Name", u."Password", u."Role"
+FROM "Users" AS u
+WHERE u."Email" = @__dto_Email_0
+LIMIT 1
+2025-07-01 15:54:34.598 +05:30 [INF] Executed action method TicketTracker.Controllers.AuthController.Login (TicketTracker), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 1244.0537ms.
+2025-07-01 15:54:34.603 +05:30 [INF] Executing OkObjectResult, writing value of type 'TicketTracker.Helpers.ApiResponse`1[[TicketTracker.DTOs.AuthResponseDto, TicketTracker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-01 15:54:34.617 +05:30 [INF] Executed action TicketTracker.Controllers.AuthController.Login (TicketTracker) in 1570.7729ms
+2025-07-01 15:54:34.618 +05:30 [INF] Executed endpoint 'TicketTracker.Controllers.AuthController.Login (TicketTracker)'
+2025-07-01 15:54:34.627 +05:30 [INF] Request finished HTTP/1.1 POST http://localhost:5206/api/Auth/login - 200 null application/json; charset=utf-8 1639.9005ms
+2025-07-01 15:55:11.920 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/Users/profile - null null
+2025-07-01 15:55:12.004 +05:30 [INF] Executing endpoint 'TicketTracker.Controllers.UsersController.Get (TicketTracker)'
+2025-07-01 15:55:12.007 +05:30 [INF] Route matched with {action = "Get", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller TicketTracker.Controllers.UsersController (TicketTracker).
+2025-07-01 15:55:12.009 +05:30 [INF] Executing action method TicketTracker.Controllers.UsersController.Get (TicketTracker) - Validation state: "Valid"
+2025-07-01 15:55:12.084 +05:30 [INF] Executed DbCommand (32ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Name", u."Password", u."Role"
+FROM "Users" AS u
+WHERE u."Id" = @__p_0
+LIMIT 1
+2025-07-01 15:55:12.089 +05:30 [INF] Executed action method TicketTracker.Controllers.UsersController.Get (TicketTracker), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 80.1521ms.
+2025-07-01 15:55:12.089 +05:30 [INF] Executing OkObjectResult, writing value of type 'TicketTracker.Helpers.ApiResponse`1[[TicketTracker.DTOs.UserDto, TicketTracker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-01 15:55:12.097 +05:30 [INF] Executed action TicketTracker.Controllers.UsersController.Get (TicketTracker) in 89.6475ms
+2025-07-01 15:55:12.097 +05:30 [INF] Executed endpoint 'TicketTracker.Controllers.UsersController.Get (TicketTracker)'
+2025-07-01 15:55:12.097 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/Users/profile - 200 null application/json; charset=utf-8 178.0329ms
+2025-07-01 15:55:42.535 +05:30 [INF] Request starting HTTP/1.1 PUT http://localhost:5206/api/Users/profile - application/json 33
+2025-07-01 15:55:42.540 +05:30 [INF] CORS policy execution failed.
+2025-07-01 15:55:42.540 +05:30 [INF] Request origin http://localhost:5206 does not have permission to access the resource.
+2025-07-01 15:55:42.553 +05:30 [INF] Executing endpoint 'TicketTracker.Controllers.UsersController.Update (TicketTracker)'
+2025-07-01 15:55:42.560 +05:30 [INF] Route matched with {action = "Update", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(TicketTracker.DTOs.UpdateUserDto) on controller TicketTracker.Controllers.UsersController (TicketTracker).
+2025-07-01 15:55:42.576 +05:30 [INF] Executing action method TicketTracker.Controllers.UsersController.Update (TicketTracker) - Validation state: "Valid"
+2025-07-01 15:55:42.633 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Name", u."Password", u."Role"
+FROM "Users" AS u
+WHERE u."Id" = @__p_0
+LIMIT 1
+2025-07-01 15:55:42.645 +05:30 [INF] Executed action TicketTracker.Controllers.UsersController.Update (TicketTracker) in 84.964ms
+2025-07-01 15:55:42.645 +05:30 [INF] Executed endpoint 'TicketTracker.Controllers.UsersController.Update (TicketTracker)'
+2025-07-01 15:55:42.646 +05:30 [ERR] Exception occured at /api/Users/profile
+System.AggregateException: One or more errors occurred. (Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UpdateUserDto -> User
+TicketTracker.DTOs.UpdateUserDto -> TicketTracker.Models.User)
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UpdateUserDto -> User
+TicketTracker.DTOs.UpdateUserDto -> TicketTracker.Models.User
+   at lambda_method101(Closure, UpdateUserDto, User, ResolutionContext)
+   at TicketTracker.Services.UserService.UpdateAsync(UpdateUserDto updateUserDto) in /Users/priyank/RiderProjects/TicketTracker/TicketTracker/Services/UserService.cs:line 46
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at TicketTracker.Controllers.UsersController.Update(UpdateUserDto dto) in /Users/priyank/RiderProjects/TicketTracker/TicketTracker/Controllers/UsersController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TicketTracker.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/priyank/RiderProjects/TicketTracker/TicketTracker/Middleware/ExceptionMiddleware.cs:line 21
+2025-07-01 15:55:42.710 +05:30 [INF] Request finished HTTP/1.1 PUT http://localhost:5206/api/Users/profile - 200 0 null 175.8471ms
+2025-07-01 15:55:49.238 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/Users/profile - null null
+2025-07-01 15:55:49.245 +05:30 [INF] Executing endpoint 'TicketTracker.Controllers.UsersController.Get (TicketTracker)'
+2025-07-01 15:55:49.245 +05:30 [INF] Route matched with {action = "Get", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller TicketTracker.Controllers.UsersController (TicketTracker).
+2025-07-01 15:55:49.250 +05:30 [INF] Executing action method TicketTracker.Controllers.UsersController.Get (TicketTracker) - Validation state: "Valid"
+2025-07-01 15:55:49.254 +05:30 [INF] Executed DbCommand (1ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Name", u."Password", u."Role"
+FROM "Users" AS u
+WHERE u."Id" = @__p_0
+LIMIT 1
+2025-07-01 15:55:49.257 +05:30 [INF] Executed action method TicketTracker.Controllers.UsersController.Get (TicketTracker), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6.6478ms.
+2025-07-01 15:55:49.258 +05:30 [INF] Executing OkObjectResult, writing value of type 'TicketTracker.Helpers.ApiResponse`1[[TicketTracker.DTOs.UserDto, TicketTracker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-01 15:55:49.258 +05:30 [INF] Executed action TicketTracker.Controllers.UsersController.Get (TicketTracker) in 12.6877ms
+2025-07-01 15:55:49.258 +05:30 [INF] Executed endpoint 'TicketTracker.Controllers.UsersController.Get (TicketTracker)'
+2025-07-01 15:55:49.259 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/Users/profile - 200 null application/json; charset=utf-8 20.7636ms
+2025-07-01 15:56:01.152 +05:30 [INF] Request starting HTTP/1.1 PUT http://localhost:5206/api/Users/profile - application/json 33
+2025-07-01 15:56:01.163 +05:30 [INF] CORS policy execution failed.
+2025-07-01 15:56:01.164 +05:30 [INF] Request origin http://localhost:5206 does not have permission to access the resource.
+2025-07-01 15:56:01.167 +05:30 [INF] Executing endpoint 'TicketTracker.Controllers.UsersController.Update (TicketTracker)'
+2025-07-01 15:56:01.167 +05:30 [INF] Route matched with {action = "Update", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(TicketTracker.DTOs.UpdateUserDto) on controller TicketTracker.Controllers.UsersController (TicketTracker).
+2025-07-01 15:56:01.175 +05:30 [INF] Executing action method TicketTracker.Controllers.UsersController.Update (TicketTracker) - Validation state: "Valid"
+2025-07-01 15:56:01.186 +05:30 [INF] Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Name", u."Password", u."Role"
+FROM "Users" AS u
+WHERE u."Id" = @__p_0
+LIMIT 1
+2025-07-01 15:56:01.195 +05:30 [INF] Executed action TicketTracker.Controllers.UsersController.Update (TicketTracker) in 27.0592ms
+2025-07-01 15:56:01.196 +05:30 [INF] Executed endpoint 'TicketTracker.Controllers.UsersController.Update (TicketTracker)'
+2025-07-01 15:56:01.197 +05:30 [ERR] Exception occured at /api/Users/profile
+System.AggregateException: One or more errors occurred. (Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UpdateUserDto -> User
+TicketTracker.DTOs.UpdateUserDto -> TicketTracker.Models.User)
+ ---> AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UpdateUserDto -> User
+TicketTracker.DTOs.UpdateUserDto -> TicketTracker.Models.User
+   at lambda_method101(Closure, UpdateUserDto, User, ResolutionContext)
+   at TicketTracker.Services.UserService.UpdateAsync(UpdateUserDto updateUserDto) in /Users/priyank/RiderProjects/TicketTracker/TicketTracker/Services/UserService.cs:line 46
+   --- End of inner exception stack trace ---
+   at System.Threading.Tasks.Task.ThrowIfExceptional(Boolean includeTaskCanceledExceptions)
+   at System.Threading.Tasks.Task`1.GetResultCore(Boolean waitCompletionNotification)
+   at TicketTracker.Controllers.UsersController.Update(UpdateUserDto dto) in /Users/priyank/RiderProjects/TicketTracker/TicketTracker/Controllers/UsersController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TicketTracker.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/priyank/RiderProjects/TicketTracker/TicketTracker/Middleware/ExceptionMiddleware.cs:line 21
+2025-07-01 15:56:01.214 +05:30 [INF] Request finished HTTP/1.1 PUT http://localhost:5206/api/Users/profile - 200 0 null 64.8787ms
+2025-07-01 15:56:42.537 +05:30 [INF] Application is shutting down...
+2025-07-01 15:56:47.837 +05:30 [INF] User profile is available. Using '/Users/priyank/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-01 15:56:47.986 +05:30 [INF] Now listening on: http://localhost:5206
+2025-07-01 15:56:47.987 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-01 15:56:47.988 +05:30 [INF] Hosting environment: Development
+2025-07-01 15:56:47.988 +05:30 [INF] Content root path: /Users/priyank/RiderProjects/TicketTracker/TicketTracker
+2025-07-01 15:56:49.055 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/index.html - null null
+2025-07-01 15:56:49.367 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/index.html - 200 null text/html;charset=utf-8 312.8368ms
+2025-07-01 15:56:50.042 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - null null
+2025-07-01 15:56:50.098 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf - null null
+2025-07-01 15:56:50.119 +05:30 [INF] CORS policy execution failed.
+2025-07-01 15:56:50.120 +05:30 [INF] Request origin http://localhost:5206 does not have permission to access the resource.
+2025-07-01 15:56:50.121 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-07-01 15:56:50.291 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf - 404 0 null 193.0733ms
+2025-07-01 15:56:50.293 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf, Response status code: 404
+2025-07-01 15:56:50.329 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 289.6036ms
+2025-07-01 15:56:56.515 +05:30 [INF] Request starting HTTP/1.1 PUT http://localhost:5206/api/Users/profile - application/json 33
+2025-07-01 15:56:56.533 +05:30 [INF] CORS policy execution failed.
+2025-07-01 15:56:56.533 +05:30 [INF] Request origin http://localhost:5206 does not have permission to access the resource.
+2025-07-01 15:56:56.604 +05:30 [INF] Executing endpoint 'TicketTracker.Controllers.UsersController.Update (TicketTracker)'
+2025-07-01 15:56:56.621 +05:30 [INF] Route matched with {action = "Update", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(TicketTracker.DTOs.UpdateUserDto) on controller TicketTracker.Controllers.UsersController (TicketTracker).
+2025-07-01 15:56:56.874 +05:30 [INF] Executing action method TicketTracker.Controllers.UsersController.Update (TicketTracker) - Validation state: "Valid"
+2025-07-01 15:57:02.465 +05:30 [INF] Executed DbCommand (64ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Name", u."Password", u."Role"
+FROM "Users" AS u
+WHERE u."Id" = @__p_0
+LIMIT 1
+2025-07-01 15:58:48.311 +05:30 [INF] User profile is available. Using '/Users/priyank/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-01 15:58:48.426 +05:30 [INF] Now listening on: http://localhost:5206
+2025-07-01 15:58:48.428 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-01 15:58:48.428 +05:30 [INF] Hosting environment: Development
+2025-07-01 15:58:48.428 +05:30 [INF] Content root path: /Users/priyank/RiderProjects/TicketTracker/TicketTracker
+2025-07-01 15:58:49.855 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/index.html - null null
+2025-07-01 15:58:50.008 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/index.html - 200 null text/html;charset=utf-8 153.4175ms
+2025-07-01 15:58:50.536 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf - null null
+2025-07-01 15:58:50.528 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - null null
+2025-07-01 15:58:50.589 +05:30 [INF] CORS policy execution failed.
+2025-07-01 15:58:50.590 +05:30 [INF] Request origin http://localhost:5206 does not have permission to access the resource.
+2025-07-01 15:58:50.592 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-07-01 15:58:50.698 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf - 404 0 null 170.0919ms
+2025-07-01 15:58:50.705 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf, Response status code: 404
+2025-07-01 15:58:50.772 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 248.5837ms
+2025-07-01 15:58:53.266 +05:30 [INF] Request starting HTTP/1.1 PUT http://localhost:5206/api/Users/profile - application/json 33
+2025-07-01 15:58:53.300 +05:30 [INF] CORS policy execution failed.
+2025-07-01 15:58:53.301 +05:30 [INF] Request origin http://localhost:5206 does not have permission to access the resource.
+2025-07-01 15:58:53.370 +05:30 [INF] Executing endpoint 'TicketTracker.Controllers.UsersController.Update (TicketTracker)'
+2025-07-01 15:58:53.385 +05:30 [INF] Route matched with {action = "Update", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(TicketTracker.DTOs.UpdateUserDto) on controller TicketTracker.Controllers.UsersController (TicketTracker).
+2025-07-01 15:58:53.596 +05:30 [INF] Executing action method TicketTracker.Controllers.UsersController.Update (TicketTracker) - Validation state: "Valid"
+2025-07-01 15:58:57.959 +05:30 [INF] Executed DbCommand (63ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Name", u."Password", u."Role"
+FROM "Users" AS u
+WHERE u."Id" = @__p_0
+LIMIT 1
+2025-07-01 15:59:17.364 +05:30 [INF] Executed action TicketTracker.Controllers.UsersController.Update (TicketTracker) in 23975.0176ms
+2025-07-01 15:59:17.367 +05:30 [INF] Executed endpoint 'TicketTracker.Controllers.UsersController.Update (TicketTracker)'
+2025-07-01 15:59:17.427 +05:30 [ERR] Exception occured at /api/Users/profile
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+UpdateUserDto -> User
+TicketTracker.DTOs.UpdateUserDto -> TicketTracker.Models.User
+   at lambda_method74(Closure, UpdateUserDto, User, ResolutionContext)
+   at TicketTracker.Services.UserService.UpdateAsync(UpdateUserDto updateUserDto) in /Users/priyank/RiderProjects/TicketTracker/TicketTracker/Services/UserService.cs:line 46
+   at TicketTracker.Controllers.UsersController.Update(UpdateUserDto dto) in /Users/priyank/RiderProjects/TicketTracker/TicketTracker/Controllers/UsersController.cs:line 32
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TicketTracker.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/priyank/RiderProjects/TicketTracker/TicketTracker/Middleware/ExceptionMiddleware.cs:line 21
+2025-07-01 15:59:17.447 +05:30 [INF] Request finished HTTP/1.1 PUT http://localhost:5206/api/Users/profile - 200 0 null 24181.1052ms
+2025-07-01 15:59:26.214 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/Users/profile - null null
+2025-07-01 15:59:26.230 +05:30 [INF] Executing endpoint 'TicketTracker.Controllers.UsersController.Get (TicketTracker)'
+2025-07-01 15:59:26.233 +05:30 [INF] Route matched with {action = "Get", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller TicketTracker.Controllers.UsersController (TicketTracker).
+2025-07-01 15:59:26.235 +05:30 [INF] Executing action method TicketTracker.Controllers.UsersController.Get (TicketTracker) - Validation state: "Valid"
+2025-07-01 15:59:26.262 +05:30 [INF] Executed DbCommand (7ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Name", u."Password", u."Role"
+FROM "Users" AS u
+WHERE u."Id" = @__p_0
+LIMIT 1
+2025-07-01 15:59:26.271 +05:30 [INF] Executed action method TicketTracker.Controllers.UsersController.Get (TicketTracker), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 32.1994ms.
+2025-07-01 15:59:26.279 +05:30 [INF] Executing OkObjectResult, writing value of type 'TicketTracker.Helpers.ApiResponse`1[[TicketTracker.DTOs.UserDto, TicketTracker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-01 15:59:26.301 +05:30 [INF] Executed action TicketTracker.Controllers.UsersController.Get (TicketTracker) in 67.1513ms
+2025-07-01 15:59:26.301 +05:30 [INF] Executed endpoint 'TicketTracker.Controllers.UsersController.Get (TicketTracker)'
+2025-07-01 15:59:26.301 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/Users/profile - 200 null application/json; charset=utf-8 121.39ms
+2025-07-01 15:59:37.050 +05:30 [INF] Request starting HTTP/1.1 PUT http://localhost:5206/api/Users/profile - application/json 33
+2025-07-01 15:59:37.051 +05:30 [INF] CORS policy execution failed.
+2025-07-01 15:59:37.051 +05:30 [INF] Request origin http://localhost:5206 does not have permission to access the resource.
+2025-07-01 15:59:37.053 +05:30 [INF] Executing endpoint 'TicketTracker.Controllers.UsersController.Update (TicketTracker)'
+2025-07-01 15:59:37.054 +05:30 [INF] Route matched with {action = "Update", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(TicketTracker.DTOs.UpdateUserDto) on controller TicketTracker.Controllers.UsersController (TicketTracker).
+2025-07-01 15:59:37.071 +05:30 [INF] Executing action method TicketTracker.Controllers.UsersController.Update (TicketTracker) - Validation state: "Valid"
+2025-07-01 16:00:12.214 +05:30 [INF] Executed DbCommand (9ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Name", u."Password", u."Role"
+FROM "Users" AS u
+WHERE u."Id" = @__p_0
+LIMIT 1
+2025-07-01 16:02:15.785 +05:30 [INF] User profile is available. Using '/Users/priyank/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-01 16:02:15.910 +05:30 [INF] Now listening on: http://localhost:5206
+2025-07-01 16:02:15.913 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-01 16:02:15.914 +05:30 [INF] Hosting environment: Development
+2025-07-01 16:02:15.914 +05:30 [INF] Content root path: /Users/priyank/RiderProjects/TicketTracker/TicketTracker
+2025-07-01 16:02:17.367 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/index.html - null null
+2025-07-01 16:02:17.568 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/index.html - 200 null text/html;charset=utf-8 201.7573ms
+2025-07-01 16:02:18.639 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - null null
+2025-07-01 16:02:18.722 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf - null null
+2025-07-01 16:02:18.732 +05:30 [INF] CORS policy execution failed.
+2025-07-01 16:02:18.732 +05:30 [INF] Request origin http://localhost:5206 does not have permission to access the resource.
+2025-07-01 16:02:18.734 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-07-01 16:02:18.820 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 183.2382ms
+2025-07-01 16:02:18.851 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf - 404 0 null 128.8883ms
+2025-07-01 16:02:18.854 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf, Response status code: 404
+2025-07-01 16:02:23.129 +05:30 [INF] Request starting HTTP/1.1 PUT http://localhost:5206/api/Users/profile - application/json 33
+2025-07-01 16:02:23.162 +05:30 [INF] CORS policy execution failed.
+2025-07-01 16:02:23.163 +05:30 [INF] Request origin http://localhost:5206 does not have permission to access the resource.
+2025-07-01 16:02:23.226 +05:30 [INF] Executing endpoint 'TicketTracker.Controllers.UsersController.Update (TicketTracker)'
+2025-07-01 16:02:23.239 +05:30 [INF] Route matched with {action = "Update", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(TicketTracker.DTOs.UpdateUserDto) on controller TicketTracker.Controllers.UsersController (TicketTracker).
+2025-07-01 16:02:23.478 +05:30 [INF] Executing action method TicketTracker.Controllers.UsersController.Update (TicketTracker) - Validation state: "Valid"
+2025-07-01 16:02:48.993 +05:30 [INF] Executed DbCommand (60ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Name", u."Password", u."Role"
+FROM "Users" AS u
+WHERE u."Id" = @__p_0
+LIMIT 1
+2025-07-01 16:02:55.999 +05:30 [INF] Executed DbCommand (34ms) [Parameters=[@p5='?' (DbType = Int32), @p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?', @p4='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Users" SET "CreatedAt" = @p0, "Email" = @p1, "Name" = @p2, "Password" = @p3, "Role" = @p4
+WHERE "Id" = @p5;
+2025-07-01 16:03:03.494 +05:30 [INF] Executed action method TicketTracker.Controllers.UsersController.Update (TicketTracker), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 40009.7576ms.
+2025-07-01 16:03:03.504 +05:30 [INF] Executing OkObjectResult, writing value of type 'TicketTracker.Helpers.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-01 16:03:03.547 +05:30 [INF] Executed action TicketTracker.Controllers.UsersController.Update (TicketTracker) in 40305.427ms
+2025-07-01 16:03:03.548 +05:30 [INF] Executed endpoint 'TicketTracker.Controllers.UsersController.Update (TicketTracker)'
+2025-07-01 16:03:03.558 +05:30 [INF] Request finished HTTP/1.1 PUT http://localhost:5206/api/Users/profile - 200 null application/json; charset=utf-8 40428.9028ms
+2025-07-01 16:03:13.265 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/Users/profile - null null
+2025-07-01 16:03:13.282 +05:30 [INF] Executing endpoint 'TicketTracker.Controllers.UsersController.Get (TicketTracker)'
+2025-07-01 16:03:13.288 +05:30 [INF] Route matched with {action = "Get", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller TicketTracker.Controllers.UsersController (TicketTracker).
+2025-07-01 16:03:13.291 +05:30 [INF] Executing action method TicketTracker.Controllers.UsersController.Get (TicketTracker) - Validation state: "Valid"
+2025-07-01 16:03:13.369 +05:30 [INF] Executed DbCommand (29ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Name", u."Password", u."Role"
+FROM "Users" AS u
+WHERE u."Id" = @__p_0
+LIMIT 1
+2025-07-01 16:03:13.674 +05:30 [INF] Executed action method TicketTracker.Controllers.UsersController.Get (TicketTracker), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 382.0686ms.
+2025-07-01 16:03:13.675 +05:30 [INF] Executing OkObjectResult, writing value of type 'TicketTracker.Helpers.ApiResponse`1[[TicketTracker.DTOs.UserDto, TicketTracker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-01 16:03:13.690 +05:30 [INF] Executed action TicketTracker.Controllers.UsersController.Get (TicketTracker) in 401.8477ms
+2025-07-01 16:03:13.691 +05:30 [INF] Executed endpoint 'TicketTracker.Controllers.UsersController.Get (TicketTracker)'
+2025-07-01 16:03:13.691 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/Users/profile - 200 null application/json; charset=utf-8 425.7245ms
+2025-07-01 16:03:23.524 +05:30 [INF] Request starting HTTP/1.1 PUT http://localhost:5206/api/Users/profile - application/json 35
+2025-07-01 16:03:23.530 +05:30 [INF] CORS policy execution failed.
+2025-07-01 16:03:23.531 +05:30 [INF] Request origin http://localhost:5206 does not have permission to access the resource.
+2025-07-01 16:03:23.543 +05:30 [INF] Executing endpoint 'TicketTracker.Controllers.UsersController.Update (TicketTracker)'
+2025-07-01 16:03:23.544 +05:30 [INF] Route matched with {action = "Update", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Update(TicketTracker.DTOs.UpdateUserDto) on controller TicketTracker.Controllers.UsersController (TicketTracker).
+2025-07-01 16:03:23.553 +05:30 [INF] Executing action method TicketTracker.Controllers.UsersController.Update (TicketTracker) - Validation state: "Valid"
+2025-07-01 16:03:29.639 +05:30 [INF] Executed DbCommand (97ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Name", u."Password", u."Role"
+FROM "Users" AS u
+WHERE u."Id" = @__p_0
+LIMIT 1
+2025-07-01 16:03:29.845 +05:30 [INF] Executed DbCommand (51ms) [Parameters=[@p5='?' (DbType = Int32), @p0='?' (DbType = DateTime), @p1='?', @p2='?', @p3='?', @p4='?'], CommandType='"Text"', CommandTimeout='30']
+UPDATE "Users" SET "CreatedAt" = @p0, "Email" = @p1, "Name" = @p2, "Password" = @p3, "Role" = @p4
+WHERE "Id" = @p5;
+2025-07-01 16:03:29.935 +05:30 [INF] Executed action method TicketTracker.Controllers.UsersController.Update (TicketTracker), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 6381.0037ms.
+2025-07-01 16:03:29.935 +05:30 [INF] Executing OkObjectResult, writing value of type 'TicketTracker.Helpers.ApiResponse`1[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-01 16:03:29.936 +05:30 [INF] Executed action TicketTracker.Controllers.UsersController.Update (TicketTracker) in 6391.9988ms
+2025-07-01 16:03:29.937 +05:30 [INF] Executed endpoint 'TicketTracker.Controllers.UsersController.Update (TicketTracker)'
+2025-07-01 16:03:29.937 +05:30 [INF] Request finished HTTP/1.1 PUT http://localhost:5206/api/Users/profile - 200 null application/json; charset=utf-8 6413.781ms
+2025-07-01 16:03:35.466 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/Users/profile - null null
+2025-07-01 16:03:35.472 +05:30 [INF] Executing endpoint 'TicketTracker.Controllers.UsersController.Get (TicketTracker)'
+2025-07-01 16:03:35.473 +05:30 [INF] Route matched with {action = "Get", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Get() on controller TicketTracker.Controllers.UsersController (TicketTracker).
+2025-07-01 16:03:35.475 +05:30 [INF] Executing action method TicketTracker.Controllers.UsersController.Get (TicketTracker) - Validation state: "Valid"
+2025-07-01 16:03:35.608 +05:30 [INF] Executed DbCommand (28ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Name", u."Password", u."Role"
+FROM "Users" AS u
+WHERE u."Id" = @__p_0
+LIMIT 1
+2025-07-01 16:03:35.651 +05:30 [INF] Executed action method TicketTracker.Controllers.UsersController.Get (TicketTracker), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 175.2969ms.
+2025-07-01 16:03:35.654 +05:30 [INF] Executing OkObjectResult, writing value of type 'TicketTracker.Helpers.ApiResponse`1[[TicketTracker.DTOs.UserDto, TicketTracker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-07-01 16:03:35.658 +05:30 [INF] Executed action TicketTracker.Controllers.UsersController.Get (TicketTracker) in 185.1505ms
+2025-07-01 16:03:35.658 +05:30 [INF] Executed endpoint 'TicketTracker.Controllers.UsersController.Get (TicketTracker)'
+2025-07-01 16:03:35.658 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/Users/profile - 200 null application/json; charset=utf-8 192.7905ms
+2025-07-01 16:04:02.300 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/Users?page=1&pageSize=10 - null null
+2025-07-01 16:04:02.308 +05:30 [INF] Executing endpoint 'TicketTracker.Controllers.UsersController.GetUsers (TicketTracker)'
+2025-07-01 16:04:02.327 +05:30 [INF] Route matched with {action = "GetUsers", controller = "Users"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetUsers(Int32, Int32) on controller TicketTracker.Controllers.UsersController (TicketTracker).
+2025-07-01 16:04:02.343 +05:30 [INF] Executing action method TicketTracker.Controllers.UsersController.GetUsers (TicketTracker) - Validation state: "Valid"
+2025-07-01 16:04:02.495 +05:30 [INF] Executed DbCommand (51ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT u."Id", u."CreatedAt", u."Email", u."Name", u."Password", u."Role"
+FROM "Users" AS u
+ORDER BY u."CreatedAt" DESC
+LIMIT @__p_1 OFFSET @__p_0
+2025-07-01 16:04:02.542 +05:30 [INF] Executed action method TicketTracker.Controllers.UsersController.GetUsers (TicketTracker), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 198.6605ms.
+2025-07-01 16:04:02.543 +05:30 [INF] Executing OkObjectResult, writing value of type 'TicketTracker.Helpers.ApiResponse`1[[System.Collections.Generic.List`1[[TicketTracker.DTOs.UserDto, TicketTracker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-07-01 16:04:02.553 +05:30 [INF] Executed action TicketTracker.Controllers.UsersController.GetUsers (TicketTracker) in 225.7828ms
+2025-07-01 16:04:02.553 +05:30 [INF] Executed endpoint 'TicketTracker.Controllers.UsersController.GetUsers (TicketTracker)'
+2025-07-01 16:04:02.553 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/Users?page=1&pageSize=10 - 200 null application/json; charset=utf-8 253.6975ms
+2025-07-01 16:04:57.139 +05:30 [INF] User profile is available. Using '/Users/priyank/.aspnet/DataProtection-Keys' as key repository; keys will not be encrypted at rest.
+2025-07-01 16:04:57.243 +05:30 [INF] Now listening on: http://localhost:5206
+2025-07-01 16:04:57.245 +05:30 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-01 16:04:57.245 +05:30 [INF] Hosting environment: Development
+2025-07-01 16:04:57.245 +05:30 [INF] Content root path: /Users/priyank/RiderProjects/TicketTracker/TicketTracker
+2025-07-01 16:04:57.927 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/index.html - null null
+2025-07-01 16:04:58.065 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/index.html - 200 null text/html;charset=utf-8 139.0812ms
+2025-07-01 16:04:58.805 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - null null
+2025-07-01 16:04:58.926 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf - null null
+2025-07-01 16:04:58.930 +05:30 [INF] CORS policy execution failed.
+2025-07-01 16:04:58.930 +05:30 [INF] Request origin http://localhost:5206 does not have permission to access the resource.
+2025-07-01 16:04:58.932 +05:30 [WRN] Failed to determine the https port for redirect.
+2025-07-01 16:04:58.961 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 157.9454ms
+2025-07-01 16:04:59.021 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf - 404 0 null 94.9792ms
+2025-07-01 16:04:59.023 +05:30 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: GET http://localhost:5206/src/assets/fonts/inter-display/ttf/InterDisplay-Regular.ttf, Response status code: 404
+2025-07-01 16:06:01.515 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/Users?page=1&pageSize=10 - null null
+2025-07-01 16:06:02.034 +05:30 [INF] Authorization failed. These requirements were not met:
+RolesAuthorizationRequirement:User.IsInRole must be true for one of the following roles: (Admin)
+2025-07-01 16:06:02.037 +05:30 [INF] AuthenticationScheme: Bearer was forbidden.
+2025-07-01 16:06:02.042 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/Users?page=1&pageSize=10 - 403 0 null 533.0485ms
+2025-07-01 16:06:27.428 +05:30 [INF] Request starting HTTP/1.1 GET http://localhost:5206/api/Ticket?page=1&pageSize=10 - null null
+2025-07-01 16:06:27.463 +05:30 [INF] Executing endpoint 'TicketTracker.Controllers.TicketController.GetList (TicketTracker)'
+2025-07-01 16:06:27.547 +05:30 [INF] Route matched with {action = "GetList", controller = "Ticket"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetList(Int32, Int32) on controller TicketTracker.Controllers.TicketController (TicketTracker).
+2025-07-01 16:06:27.938 +05:30 [INF] Executing action method TicketTracker.Controllers.TicketController.GetList (TicketTracker) - Validation state: "Valid"
+2025-07-01 16:06:28.956 +05:30 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT count(*)::int
+FROM "Tickets" AS t
+2025-07-01 16:06:29.158 +05:30 [INF] Executed DbCommand (33ms) [Parameters=[@__p_1='?' (DbType = Int32), @__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT t0."Id", t0."AssignedToId", t0."CreatedAt", t0."CreatedById", t0."Description", t0."Priority", t0."Status", t0."Title", t0."UpdatedAt", u."Id", u."CreatedAt", u."Email", u."Name", u."Password", u."Role", u0."Id", u0."CreatedAt", u0."Email", u0."Name", u0."Password", u0."Role"
+FROM (
+    SELECT t."Id", t."AssignedToId", t."CreatedAt", t."CreatedById", t."Description", t."Priority", t."Status", t."Title", t."UpdatedAt"
+    FROM "Tickets" AS t
+    ORDER BY t."CreatedAt" DESC
+    LIMIT @__p_1 OFFSET @__p_0
+) AS t0
+INNER JOIN "Users" AS u ON t0."CreatedById" = u."Id"
+LEFT JOIN "Users" AS u0 ON t0."AssignedToId" = u0."Id"
+ORDER BY t0."CreatedAt" DESC
+2025-07-01 16:06:29.627 +05:30 [INF] Executed action TicketTracker.Controllers.TicketController.GetList (TicketTracker) in 2075.7118ms
+2025-07-01 16:06:29.628 +05:30 [INF] Executed endpoint 'TicketTracker.Controllers.TicketController.GetList (TicketTracker)'
+2025-07-01 16:06:29.766 +05:30 [ERR] Exception occured at /api/Ticket
+AutoMapper.AutoMapperMappingException: Missing type map configuration or unsupported mapping.
+
+Mapping types:
+AsyncStateMachineBox`1 -> IEnumerable`1
+System.Runtime.CompilerServices.AsyncTaskMethodBuilder`1+AsyncStateMachineBox`1[[System.Collections.Generic.List`1[[TicketTracker.Models.Ticket, TicketTracker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[Microsoft.EntityFrameworkCore.EntityFrameworkQueryableExtensions+<ToListAsync>d__67`1[[TicketTracker.Models.Ticket, TicketTracker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]], Microsoft.EntityFrameworkCore, Version=9.0.6.0, Culture=neutral, PublicKeyToken=adb9793829ddae60]] -> System.Collections.Generic.IEnumerable`1[[TicketTracker.DTOs.TicketResponseDto, TicketTracker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]
+   at lambda_method59(Closure, Object, IEnumerable`1, ResolutionContext)
+   at TicketTracker.Services.TicketService.GetListAsync(Int32 page, Int32 pageSize) in /Users/priyank/RiderProjects/TicketTracker/TicketTracker/Services/TicketService.cs:line 51
+   at TicketTracker.Controllers.TicketController.GetList(Int32 page, Int32 pageSize) in /Users/priyank/RiderProjects/TicketTracker/TicketTracker/Controllers/TicketController.cs:line 38
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ActionMethodExecutor.TaskOfIActionResultExecutor.Execute(ActionContext actionContext, IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeActionMethodAsync>g__Logged|12_1(ControllerActionInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeNextActionFilterAsync>g__Awaited|10_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Rethrow(ActionExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.<InvokeInnerFilterAsync>g__Awaited|13_0(ControllerActionInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at TicketTracker.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in /Users/priyank/RiderProjects/TicketTracker/TicketTracker/Middleware/ExceptionMiddleware.cs:line 21
+2025-07-01 16:06:29.811 +05:30 [INF] Request finished HTTP/1.1 GET http://localhost:5206/api/Ticket?page=1&pageSize=10 - 200 0 null 2383.2087ms
